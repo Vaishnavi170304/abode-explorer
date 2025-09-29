@@ -1,16 +1,49 @@
-# React + Vite
+# Abode Explorer 🏡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based virtualized list project to efficiently display large lists of properties with smooth scrolling. Built using **React**, **Vite**, and **React Virtual**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Virtualized list rendering for performance
+- Smooth scrolling
+- Component-based architecture
+- Unit tests included (Jest + React Testing Library)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+git clone https://github.com/Vaishnavi170304/abode-explorer.git
+cd abode-explorer
+npm install
+npm run dev
+```
+
+##Testing
+
+Run unit tests:
+```
+npm test
+```
+
+##Folder Structure
+
+```
+src/
+ ├─ __tests__/     # Unit tests
+ ├─ assets/        # Images and static files
+ ├─ components/    # React components
+ ├─ App.jsx        # Main app
+ └─ main.jsx       # Entry point
+```
+
+##Contributing
+
+- Fork the repo
+- Create a branch (git checkout -b feature-name)
+- Make changes and commit (git commit -m "Your message")
+- Push (git push origin feature-name)
+- Open a Pull Request
